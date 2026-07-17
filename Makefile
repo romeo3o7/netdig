@@ -1,3 +1,5 @@
+.SILENT:
+
 all:
-	gcc test.c -o main
-	./main
+	gcc src/interface.c -o build/main
+	./build/main
