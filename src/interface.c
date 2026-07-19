@@ -4,7 +4,7 @@
 #include <sys/ioctl.h>
 #include <unistd.h>
 
-int main(void) {
+int main() {
   struct if_nameindex *if_ni, *i;
 
   if_ni = if_nameindex();

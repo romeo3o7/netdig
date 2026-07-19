@@ -1,5 +1,5 @@
 .SILENT:
 
 all:
-	gcc src/interface.c -o build/main
+	gcc src/ip.c -o build/main
 	./build/main
